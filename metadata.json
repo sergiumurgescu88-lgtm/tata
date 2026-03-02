@@ -1,0 +1,24 @@
+{
+  "name": "SMART Renowable Energy SRL - Technical Partner",
+  "short_name": "SMART Energy",
+  "start_url": "https://www.smartrenowable.energy/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0284c7",
+  "description": "Professional presentation website for SMART Renowable Energy SRL, specialized in bankable renewable energy projects, technical due diligence, and advanced diagnostics.",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192.png?text=SmartIcon",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512.png?text=SmartIcon",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
