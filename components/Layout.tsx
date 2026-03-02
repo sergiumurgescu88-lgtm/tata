@@ -117,32 +117,36 @@ const Layout: React.FC<LayoutProps> = ({ currentPage, setPage, children }) => {
           </div>
         </div>
         <div className="max-w-7xl mx-auto pt-8 flex flex-col md:flex-row justify-between items-center gap-8 border-t border-slate-800 mt-8">
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-6">
             <a 
               href="https://anpc.ro/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="transition-opacity hover:opacity-80"
+              className="transition-transform hover:scale-105"
             >
-              <img 
-                src="https://anpc.ro/wp-content/uploads/2022/12/sal.png" 
-                alt="Soluționarea Alternativă a Litigiilor" 
-                className="h-14 w-auto rounded-lg bg-white p-1"
-                referrerPolicy="no-referrer"
-              />
+              <div className="bg-white rounded-2xl p-2 flex items-center justify-center shadow-sm h-16 w-[250px]">
+                <img 
+                  src="https://anpc.ro/wp-content/uploads/2022/12/sal.png" 
+                  alt="Soluționarea Alternativă a Litigiilor" 
+                  className="h-full w-full object-contain"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
             </a>
             <a 
-              href="https://consumer-redress.ec.europa.eu/site-relocation_en" 
+              href="https://reclamatiisal.anpc.ro/" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="transition-opacity hover:opacity-80"
+              className="transition-transform hover:scale-105"
             >
-              <img 
-                src="https://anpc.ro/wp-content/uploads/2022/12/sol.png" 
-                alt="Soluționarea Online a Litigiilor" 
-                className="h-14 w-auto rounded-lg bg-white p-1"
-                referrerPolicy="no-referrer"
-              />
+              <div className="bg-white rounded-2xl p-2 flex items-center justify-center shadow-sm h-16 w-[250px]">
+                <img 
+                  src="https://anpc.ro/wp-content/uploads/2022/12/sol.png" 
+                  alt="Soluționarea Online a Litigiilor" 
+                  className="h-full w-full object-contain"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
             </a>
           </div>
           <div className="flex flex-col items-center md:items-end gap-4 text-[10px] font-bold uppercase tracking-widest text-slate-600">
